@@ -1,0 +1,58 @@
+body {
+    background: url('movietheater.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #f1f1f1;
+  }
+  
+  .card {
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10px);
+  }
+  
+  .alert {
+    transition: opacity 0.3s ease;
+  }
+  
+  .alert-success {
+    background-color: #4caf50;
+  }
+  
+  .alert-danger {
+    background-color: #f44336;
+  }
+  
+  #hint {
+    color: #FFD700; /* gold color for the hint */
+    font-size: 20px;
+  }
+  
+  input, button {
+    height: 50px;
+  }
+  
+  input {
+    font-size: 18px;
+  }
+  
+  button {
+    font-size: 18px;
+    background: #FFD700;
+    border: none;
+    color: black;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background: #f1c40f;
+  }
+  
